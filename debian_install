@@ -4,9 +4,10 @@
 apt install ffmpeg libmariadb3 libpq5 libmicrohttpd12 python3-pip python3-dev libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev python3-boto3
 
 ## Instali motion:
-wget https://github.com/Motion-Project/motion/releases/download/release-4.2.2/pi_buster_motion_4.2.2-1_armhf.deb
-dpkg -i pi_buster_motion_4.2.2-1_armhf.deb
-
+# wget https://github.com/Motion-Project/motion/releases/download/release-4.2.2/pi_buster_motion_4.2.2-1_armhf.deb
+# dpkg -i pi_buster_motion_4.2.2-1_armhf.deb
+wget https://github.com/Motion-Project/motion/releases/download/release-4.3.2/buster_motion_4.3.2-1_amd64.deb
+dpkg -i buster_motion_4.3.2-1_amd64.deb
 ## Instalu motioneye.eo:
 pip3 install .
 
